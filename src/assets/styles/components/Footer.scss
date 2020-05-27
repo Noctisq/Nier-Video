@@ -1,0 +1,16 @@
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .footer a {
+    text-decoration: none;
+    color: #4d493e;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

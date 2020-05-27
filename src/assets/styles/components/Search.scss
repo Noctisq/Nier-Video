@@ -1,0 +1,40 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .main__title {
+    color: #454138;
+    font-size: 25px;
+    letter-spacing: 0.03rem;
+    font-family: "Noto Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.15rem 0.15rem 0 rgba(77, 73, 62, 0.3);
+  }
+  
+  .input {
+    color: #635d45;
+    font-size: 16px;
+    width: 70%;
+    outline: none;
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid #635d45;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 50px;
+  }
+  
+  ::placeholder {
+    color: #635d45;
+  }
+  

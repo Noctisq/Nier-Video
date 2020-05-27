@@ -1,0 +1,19 @@
+.carousel {
+  width: 100%;
+  overflow: scroll;
+  padding-left: 15px;
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+  
+  .carousel__title {
+    letter-spacing: 0.03rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    margin: 0;
+  }
+  
