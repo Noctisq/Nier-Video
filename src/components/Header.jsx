@@ -1,12 +1,14 @@
 import React from "react";
 import "../assets/styles/components/Header.scss";
+import logo from '../assets/IMG/yorha.png'
+import profilePic from '../assets/IMG/2B.png'
 //Se hace de esta forma porque no hay lógica detrás del header
 const Header = () => (
   <header className="header">
-    <img className="header__img" src="../../public/img/yorha.png" alt="LogoYorha" />
+    <img className="header__img" src={logo} alt="LogoYorha" />
     <div className="header__menu">
       <div className="header__menu--profile">
-        <img src="../../public/img/2B.png" alt="ImagenPerfil" />
+        <img src={profilePic} alt="ImagenPerfil" />
         <p>Profile</p>
       </div>
       <ul>

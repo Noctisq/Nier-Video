@@ -1,16 +1,18 @@
 import React from "react";
-import '../assets/styles/components/CarouselItem.scss'
-const CarouselItem = () => (
+import "../assets/styles/components/CarouselItem.scss";
+import playVideo from "../assets/IMG/A2.png";
+import addFav from "../assets/IMG/robot.png";
+const CarouselItem = ({ cover, title, year, contentRating, duration }) => (
   <div className="carousel-item">
-    <img className="carousel-item__img" src="../../public/img/2.jpg" alt="2b" />
+    <img className="carousel-item__img" src={cover} alt="2b" />
     <div className="carousel-item__details">
       <div>
-        <img src="../../public/img/A2.png" width="25px" height="25px" alt="ver" />
-        <img src="../../public/img/robot.png" width="25px" height="25px" alt="nover" />
+        <img src={playVideo} width="25px" height="25px" alt="ver" />
+        <img src={addFav} width="25px" height="25px" alt="nover" />
       </div>
 
-      <h3 className="carousel-item__details--title">Upgrade</h3>
-      <p className="carousel-item__details--title">SPD +85</p>
+      <h3 className="carousel-item__details--title">{title}</h3>
+      <p className="carousel-item__details--title">{`${year} ${contentRating} ${duration}`}</p>
     </div>
   </div>
 );
