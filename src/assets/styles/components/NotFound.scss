@@ -1,0 +1,35 @@
+
+  .Error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Error__404 {
+    color: rgb(77, 73, 62);
+    font-size: 100px;
+    letter-spacing: 0.03rem;
+    font-family: "Noto Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.3rem 0.3rem 0 rgba(77, 73, 62, 0.3);
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .Error__404 {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
