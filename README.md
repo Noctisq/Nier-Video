@@ -13,3 +13,7 @@ e inmediatamente podemos ejecutar el siguiente comando para correr el proyecto:
 ```javascript
 npm run start
 ```
+Después de ejecutar el comando anterior aparecerá una ventana como la siguiente: 
+![Kasumi](https://github.com/Noctisq/Nier-Video/blob/master/src/assets/IMG/NierExample.JPG)
+
+El funcionamiento es muy sencillo, se pueden agregar upgrades a tu lista de favoritos, ver los trends, etc., y después ver el video de ese upgrade. Todo está manejado con un contenedor de Redux y ReactJS
